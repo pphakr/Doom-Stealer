@@ -10,6 +10,7 @@ import sqlite3
 import zipfile
 import threading
 import subprocess
+from win32 import win32crypt
 
 from sys import argv
 from PIL import ImageGrab
